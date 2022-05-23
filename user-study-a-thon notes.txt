@@ -1,0 +1,1 @@
+- make it so that more of the map can be seen with the window (larger number of cells seen)
