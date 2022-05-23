@@ -6,11 +6,14 @@ class Enemy:
     def __init__(self, x, y):
         self.enemyAlive = True
         #cell is relative to entire game map
+        self.originX = x
+        self.originY = y
         self.enemyCellX = x
         self.enemyCellY = y
         #position is relative to entire game map
         self.enemyPosX = None
         self.enemyPosY = None
+        self.respawnTime = 10000
 
     def setCoords(self, x, y):
         self.enemyPosX = x
